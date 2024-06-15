@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Shopping list
 
-Currently, two official plugins are available:
+This app allows you to create your own shopping list. The app has both dark and light modes. Your shopping list is saved in localStorage along with the theme.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
 
-## Expanding the ESLint configuration
+**Client:** React, TypeScript, TailwindCSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Screenshots
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![App Screenshot](https://scontent-fra5-1.xx.fbcdn.net/v/t1.15752-9/441529557_467633572580351_396895088041648105_n.png?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=34F8N0_Qx8EQ7kNvgFcsA1q&_nc_ht=scontent-fra5-1.xx&oh=03_Q7cD1QGX58N0q9pXFwvPC-1g4ZtQXUjmjJQjihAChOq0nJ-Ddg&oe=669516B5)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![App Screenshot](https://scontent-fra5-2.xx.fbcdn.net/v/t1.15752-9/441434599_349765581215951_5850637491567677196_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=SLUW9k3iVtAQ7kNvgFDGloz&_nc_ht=scontent-fra5-2.xx&oh=03_Q7cD1QEXaPRRmI9_3GOLdPeb7Jl55U1k-zL3c4mZ2KDPGoA3YA&oe=66950FC2)
+
+
